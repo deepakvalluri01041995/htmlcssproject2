@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    background-color: azure;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+    
+
+nav ul li{
+    list-style: none;
+    margin-right: 60px;
+    font-weight: 600;
+}
+
+nav ul li:first-child{
+    color: #1FAA59;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+main section{
+    width: 50%;
+}
+
+.leftsection{
+    margin-left: 5%;
+    position: relative;
+}
+
+.topangle{
+    width: 25px;
+}
+
+.leftsection h1{
+    font-size: 70px;
+}
+
+.leftsection p{
+    color: #242B2E;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.bottomangle{
+    width: 25px;
+    position: absolute;
+    right: 25px;
+}
+
+.stethescope{
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right:-25px;
+    z-index: -1;
+}
+
+.mouse{
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+}
+
+.leftsection button{
+    color: white;
+    background-color: #1FAA59;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 40px;
+    font-size: 25px;
+}
+
+.Greenbox, .Yellowbox{
+    position: absolute;
+    right: 0;
+}
+
+.Greenbox{
+    width: 35%;
+    bottom: 30px;
+}
+
+.Yellowbox{
+    width: 25%;
+    bottom: 85px;
+}
+
+.DocterUncle{
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+    height: 90%;
+}
+
+
+
